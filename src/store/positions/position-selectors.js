@@ -1,7 +1,6 @@
 export const selectAllPositions = (state) => state.positions;
 
 export const selectVisiablePositions = (state, filters=[])=>{
-    console.log(filters);
     if(filters.length === 0 ){
         return state.positions;
     }
